@@ -22,8 +22,7 @@ export default function CodeSampleModal({ isOpen, closeModal }) {
       isOpen={isOpen}
       onRequestClose={closeModal}
       style={customStyles}
-      contentLabel="Code Sample"
-    >
+      contentLabel="Code Sample">
       <p>Wonder no more!</p>
       <SyntaxHighlighter language="javascript" style={twilight}>
         {`function printHelloWorld() { \n  console.log('Hello World!'); \n}`}

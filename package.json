@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
     "fuse.js": "^6.6.2",
     "lodash": "^4.17.21",
     "next": "latest",
@@ -16,5 +17,9 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint": "^10.14.0",
+    "eslint-config-next": "^16.4.3"
   }
 }
