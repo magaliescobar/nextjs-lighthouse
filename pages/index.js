@@ -22,8 +22,6 @@ export default function Start({ countries }) {
           href="https://fonts.googleapis.com/css2?family=Inter"
           rel="stylesheet"
         />
-        {/* Preload the font to improve LCP */}
-        <link href="https://fonts.googleapis.com/css2?family=Inter" rel="preload" as="style" />
         <style data-href="https://fonts.googleapis.com/css2?family=Inter">{`
           @font-face {
             font-family: 'Inter';
@@ -104,8 +102,7 @@ export default function Start({ countries }) {
         >
           Powered by
           <span className={styles.logo}>
-            {/* Preload the logo to improve LCP */}
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} priority />
+            <img src="/vercel.svg" alt="Vercel Logo" />
           </span>
         </a>
       </footer>
