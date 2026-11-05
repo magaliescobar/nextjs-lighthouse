@@ -1,0 +1,13 @@
+# Core Web Vitals
+
+> A Next.js demo site for exploring Core Web Vitals optimization techniques. Built for Lighthouse performance walkthroughs.
+
+## Pages
+
+- [Home](https://nextjs-lighthouse-gamma.vercel.app/): Population lookup tool with fuzzy country search, an optimized hero image, and a lazy-loaded code sample modal.
+
+## Features
+
+- Fuzzy search over country population data using Fuse.js and lodash, loaded on demand
+- LCP-optimized hero image served via next/image with priority loading
+- Dynamically imported modal component (client-side only) for a code sample
