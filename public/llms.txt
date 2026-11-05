@@ -8,6 +8,6 @@
 
 ## Features
 
-- Fuzzy search over country population data using Fuse.js and lodash, loaded on demand
+- Typo-tolerant search over country population data using Fuse.js and lodash, loaded on demand
 - LCP-optimized hero image served via next/image with priority loading
 - Dynamically imported modal component (client-side only) for a code sample
