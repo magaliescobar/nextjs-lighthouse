@@ -69,10 +69,6 @@ export default function Start({ countries }) {
         <title>Core Web Vitals</title>
         <meta name="description" content="Core web vitals walk through" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter"
-          rel="stylesheet"
-        />
         <style data-href="https://fonts.googleapis.com/css2?family=Inter">{`
           @font-face {
             font-family: 'Inter';
@@ -160,7 +156,7 @@ export default function Start({ countries }) {
         >
           Powered by
           <span className={styles.logo}>
-            <img src="/vercel.svg" alt="Vercel Logo" />
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
