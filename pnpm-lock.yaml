@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@vercel/speed-insights':
-        specifier: ^2.0.0
+        specifier: 2.0.0
         version: 2.0.0(next@16.0.10(@babel/core@7.29.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)
       fuse.js:
         specifier: ^6.6.2
