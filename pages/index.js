@@ -4,6 +4,7 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 
 import { countries } from '../countries';
+import { SITE_URL } from '../siteConfig';
 import styles from '../styles/Home.module.css';
 
 const CodeSampleModal = dynamic(() => import('../components/CodeSampleModal'), { ssr: false });
@@ -68,6 +69,7 @@ export default function Start({ countries }) {
       <Head>
         <title>Core Web Vitals</title>
         <meta name="description" content="Core web vitals walk through" />
+        <link rel="canonical" href={`${SITE_URL}/`} />
         <link rel="icon" href="/favicon.ico" />
         <style data-href="https://fonts.googleapis.com/css2?family=Inter">{`
           @font-face {

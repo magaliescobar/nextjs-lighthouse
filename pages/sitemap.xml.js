@@ -1,4 +1,4 @@
-const SITE_URL = 'https://nextjs-lighthouse-gamma.vercel.app';
+import { SITE_URL } from '../siteConfig';
 
 export async function getServerSideProps({ res }) {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
